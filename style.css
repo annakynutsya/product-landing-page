@@ -3,23 +3,35 @@
 
 
 
-body{
-    padding: 0;
-    margin: 0;
-}
+/* .body{
+    padding: 10px;
+    margin: 10px;
+} */
 
 .header {
-    background-color: F9DCC4;
+    position: fixed;
+    background-color: #eee;
     max-height: 75px;
     left: 0;
     right: 0;
     top: 0;
-    padding: 15px;
-    
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
 .header__navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    
+    font-size: 20px;
+    background-color: peachpuff;
 }
+.header__menu-navbar a {
+    color: saddlebrown;
+    text-decoration-line: none;
+    font-weight: 600;
+    margin: 1em;
+}
+
