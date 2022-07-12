@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap')
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: F9DCC4;
+    max-height: 75px;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    
+.header__navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
