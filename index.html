@@ -9,8 +9,8 @@
 
 <body>
     <header class="header">
-        <div class="header-content">
-            <nav class="header__navbar">
+        <nav class="header__navbar">
+            <div class="container">
                 <div class="header__navbar-logo">
                     <a href="#">
                         <img src="img/logotype-honey.svg" alt="HoneyBee">
@@ -28,37 +28,71 @@
 
     <main class="main">
         <div class="email-form" id="email-form">
-            <h1>HONEYBEE - 100% ORGANIC HONEY</h1>
+            <h1 class="form-title">HONEYBEE - 100% ORGANIC HONEY</h1>
             <form class="email-form-elements">
                 <input class="email-form__input" type="email" placeholder="Enter your email adress">
                 <button class="email-form__button" type="submit" value="user_email" name="button">Get a discount</button>
              </form>
         </div>
-        <section id="about-us"   class="about-us">
+        <section id="about-us"  class="about-us-container">
             <div class="about-us__content">
-                <div class="about-us__natural">
-                    <img class="about-us__natural-icon"   src="img/about-us-natural.svg" alt="A bee near the flower">
+                <div class="features">
+                    <div class="about-us__img">
+                    <img class="about-us__natural-icon"  src="img/about-us-natural.svg" alt="A bee near the flower">
+                </div>
+                <div class="about-us__text">   
                     <h2 class="natural-title">Natural Environment</h2>
                     <p class="natural-describtion">
                         Our swaths are located in ecologically clean areas in California. The bees feel really happy there! 
                     </p>
-                </div>
-                <div class="about-us__certified">
+                </div> 
+            </div> 
+            <div class="features">
+                <div class="about-us__img">
                     <img class="about-us__certified-icon"   src="img/about-us-certified.svg" alt="Quality icon">
+                </div>
+                <div class="about-us__text">    
                     <h2 class="certified-title">Certified Honey Production</h2>
                     <p class="certified-describtion">
                         We produce 100% organic raw honey without pasteurization or filtration processes.
                     </p>
                 </div>
-                <div class="about-us__shipping">
+            </div>
+                
+            <div class="features">
+            <div class="about-us__img">
                     <img class="about-us__shipping-icon"   src="img/about-us-shipping.svg" alt="Motorcycle delivering a package">
+                </div>
+                <div class="about-us__text">
                     <h2 class="shipping-title">Fast Shipping</h2>
                     <p class="shipping-describtion">
                         We are really fast at shipping, so you can enjoy our honey in a couple of days after your order!
                     </p>
                 </div>
             </div>
+        </div>
         </section>
+        <!-- <section>
+            <div class="about-us__content">
+                <ul>
+                    <li>
+                        <p class="natural-describtion">
+                        <img class="about-us__natural-icon"  src="img/about-us-natural.svg" alt="A bee near the flower">
+                        <h2 class="natural-title">Natural Environment</h2>
+                        
+                        Our swaths are located in ecologically clean areas in California. The bees feel really happy there! 
+                        </p>
+                    </li>
+                    <li>
+                        <img class="about-us__natural-icon"  src="img/about-us-natural.svg" alt="A bee near the flower">
+                        <h2 class="natural-title">Natural Environment</h2>
+                        <p class="natural-describtion">
+                        Our swaths are located in ecologically clean areas in California. The bees feel really happy there! 
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section> -->
         <section id="honey-making" class="honey-making">
             <div class="honey-making-video">
                 <iframe width="560" height="315" 
@@ -68,19 +102,19 @@
         </section>
         <section id="pricing" class="pricing">
             <div class="pricing-cards">
-                <div class="pricing__citrus-honey-card">
+                <div class="pricing-card">
                     <img src="img/pricing-citrus.svg" alt="A bottle of honey" class="pricing__citrus-icon">
                     <h3 class="pricing__citrus-title">Citrus Blossom Honey</h3>
                     <p class="pricing__citrus-describtion">This honey is sweet and relatively thick, a perfect match for your tea or toast. It is the best association with California!</p>
                     <a href="#email-form" class="pricing__button">Buy Now</a>
                 </div>
-                <div class="pricing__clover-honey-card">
+                <div class="pricing-card">
                     <img src="img/pricing-clover.svg" alt="Bees making honey" class="pricing__clover-icon">
                     <h3 class="pricing__clover-title">Clover Honey</h3>
                     <p class="pricing__clover-describtion">Thick honey is produced by honeybees that collect the nectar of clover plants. Mild in taste and light in color.</p>
                     <a href="#email-form" class="pricing__button">Buy Now</a>
                 </div>
-                <div class="pricing__flower-honey-card">
+                <div class="pricing-card">
                     <img src="img/pricing-flower.svg" alt="Beehives" class="pricing__flower-icon">
                     <h3 class="pricing__flower-title">Wildflower Honey</h3>
                     <p class="pricing__flower-describtion">It is also known as polyfloral honey. It is made from the nectar of different species of flowers or blossoms.</p>
@@ -94,9 +128,13 @@
             <div class="footer__content">
                 <img src="img/footer-bee.svg" alt="A bee" class="footer__logo">
                 <h4 class="footer__subtitle">Honey Production Company</h4>
+            </div>
+            <div class="footer-social-icons">
                 <a href="https://www.youtube.com/c/UoGHoneyBeeResearchCentre" class="footer__youtube"><img src="img/footer-youtube-icon.svg" alt="Youtube icon"></a>
                 <a href="https://www.facebook.com/" class="footer__facebook"><img src="img/footer-facebook-icon.svg" alt="Facebook icon"></a>
                 <a href="https://www.instagram.com/" class="footer__instagram"><img src="img/footer-instagram-icon.svg" alt="Instagram icon"></a>
+            </div>
+            <div class="footer__content-ends">
                 <p class="footer__created">© Created by</p>
                 <p class="footer__rights">All rights Reserved</p>
             </div>
