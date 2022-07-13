@@ -44,7 +44,7 @@ img {
 .header__menu-navbar {
     display: flex;
     flex-direction: column;
-    padding: auto;
+    /* padding: auto; */
     margin: auto;
 }
 .menu__link {
