@@ -208,7 +208,7 @@ img {
 .about-us__text {
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
+    text-align: center;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
